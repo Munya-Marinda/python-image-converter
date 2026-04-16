@@ -1,2 +1,5 @@
-/.DS_Store
-/venv
+venv/
+__pycache__/
+converted_png/
+converted_webp/
+.DS_Store
