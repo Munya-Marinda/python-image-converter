@@ -5,7 +5,7 @@ input_folder = 'images'
 output_folder = 'converted_webp'
 os.makedirs(output_folder, exist_ok=True)
 
-supported_formats = ('.webp', '.jpg', '.jpeg', '.bmp', '.tiff')
+supported_formats = ('.webp', '.png', '.jpg', '.jpeg', '.bmp', '.tiff')
     
 for file_name in os.listdir(input_folder):
     if file_name.lower().endswith(supported_formats):
